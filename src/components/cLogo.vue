@@ -1,5 +1,5 @@
 <template>
-    <div class="c-logo__wrapper animation">
+    <div class="c-logo animation">
         <c-carrot-icon class="c-logo__carrot-icon"/>
         <c-nectar-logo-text />
     </div>
@@ -20,7 +20,7 @@ export default {
 
 <style scoped lang="scss">
 
-.c-logo__wrapper {
+.c-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
