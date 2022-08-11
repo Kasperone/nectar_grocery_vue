@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <h2>
-      HomeScreenView
-    </h2>
-  </div>
+  <c-logo-and-localization />
 </template>
+
+<script>
+import cLogoAndLocalization from '../components/cLogoAndLocalization.vue'
+
+export default {
+  name: 'HomeScreenView',
+  components: {
+    cLogoAndLocalization,
+  }
+}
+
+</script>

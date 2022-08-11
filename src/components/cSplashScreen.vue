@@ -1,5 +1,5 @@
 <template>
-  <div class="splash-screen">
+  <div class="c-splash-screen">
     <c-logo />
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .splash-screen {
+  .c-splash-screen {
     display: flex;
     justify-content: center;
     background-color: #53B175;

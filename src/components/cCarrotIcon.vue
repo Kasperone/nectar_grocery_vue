@@ -1,5 +1,5 @@
 <template>
-  <div class="carrot-icon"></div>
+  <div class="c-carrot-icon"></div>
 </template>
 
 <script>
@@ -9,9 +9,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.carrot-icon {
-  background-image: url("../assets/icons/carrot-logo.svg");
+.c-carrot-icon {
+  background-image: url('../assets/icons/carrot-icon.svg');
   width: 5.47rem;
-  height: 6.361rem;
+  height: 6.36rem;
 }
 </style>
