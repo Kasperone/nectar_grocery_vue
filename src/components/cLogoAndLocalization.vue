@@ -40,15 +40,15 @@ export default {
     display: flex;
     align-items: center;
     margin-top: .83rem;
+  }
 
-    .c-logo-localization__text {
-      font-style: normal;
-      font-weight: 600;
-      font-size: 1.8rem;
-      text-align: center;
-      color: #4C4F4D;
-      margin-left: 1.264rem;
-    }
+  &__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #4C4F4D;
+    margin-left: 1.26rem;
   }
 }
 </style>
