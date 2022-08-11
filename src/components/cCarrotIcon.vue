@@ -10,7 +10,7 @@ export default {
 
 <style scoped lang="scss">
 .carrot-icon {
-  background-image: url("../assets/icons/carrot-logo.svg");
+  background-image: url('../assets/icons/carrot-icon.svg');
   width: 5.47rem;
   height: 6.361rem;
 }
