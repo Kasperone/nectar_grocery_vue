@@ -25,7 +25,7 @@ export default {
   flex-direction: row;
   align-items: center;
 
-  .c-logo__carrot-icon {
+  &__carrot-icon {
     margin-right: 2rem;
   }
 }
