@@ -1,0 +1,6 @@
+@import "./base.css";
+
+#app {
+  max-width: 42.5rem;
+  width: 100%;
+}
