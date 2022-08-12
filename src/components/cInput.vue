@@ -2,11 +2,12 @@
   <div class="c-input">
 
     <input type="text"
-         class="c-input__input"
-         :placeholder="placeholder">
+           class="c-input__input"
+           :placeholder="placeholder">
 
     <img src="../assets/icons/search-icon.svg"
-         alt='localization icon' class="c-input__icon">
+         alt='localization icon'
+         class="c-input__icon">
   </div>
 </template>
 
