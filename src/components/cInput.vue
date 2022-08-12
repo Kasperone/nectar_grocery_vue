@@ -1,8 +1,9 @@
 <template>
   <div class="c-input">
 
-    <input type="text"
-           class="c-input__input"
+    <input class="c-input__input"
+           type="text"
+           v-model="text"
            :placeholder="placeholder">
 
     <img src="../assets/icons/search-icon.svg"
@@ -12,6 +13,8 @@
 </template>
 
 <script>
+import { ref } from 'vue';
+
 export default {
   name: 'cInput',
   props: {
@@ -19,6 +22,12 @@ export default {
       type: String,
       default: 'Search Store',
     },
+  },
+
+  setup() {
+    const text = ref('');
+
+    return { text }
   }
 }
 </script>
