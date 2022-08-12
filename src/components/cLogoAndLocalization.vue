@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import cCarrotIconColor from '../components/cCarrotIconColor.vue'
+import cCarrotIconColor from '../components/cCarrotIconColor.vue';
 
 export default {
   name: 'cLogoAndLocalization',

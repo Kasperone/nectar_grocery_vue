@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import cCarrotIcon from '../components/cCarrotIcon.vue'
-import cNectarLogoText from '../components/cNectarLogoText.vue'
+import cCarrotIcon from '../components/cCarrotIcon.vue';
+import cNectarLogoText from '../components/cNectarLogoText.vue';
 
 export default {
   name: 'cLogo',
