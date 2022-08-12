@@ -4,7 +4,7 @@
 
 <script>
 import { useRouter } from 'vue-router/dist/vue-router';
-import cSplashScreen from '../components/cSplashScreen.vue'
+import cSplashScreen from '../components/cSplashScreen.vue';
 
 export default {
   name: 'vSplashScreenView',

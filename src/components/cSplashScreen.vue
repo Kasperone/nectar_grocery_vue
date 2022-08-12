@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import cLogo from '../components/cLogo.vue'
+import cLogo from '../components/cLogo.vue';
 
 export default {
   name: 'cSplashScreen',
