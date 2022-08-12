@@ -1,5 +1,7 @@
 <template>
-  <img class="c-hero" src="../assets/images/hero-image.png" />
+  <img class="c-hero"
+       src="../assets/images/hero-image.png" />
+
 </template>
 
 <script>
