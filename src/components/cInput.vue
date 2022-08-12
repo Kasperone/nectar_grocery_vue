@@ -3,8 +3,10 @@
 
     <input class="c-input__input"
            type="text"
-           v-model="text"
+           :value="inputValue"
+           @input="$emit('update:inputValue', $event.target.value)"
            :placeholder="placeholder">
+
 
     <img src="../assets/icons/search-icon.svg"
          alt='localization icon'
@@ -13,23 +15,21 @@
 </template>
 
 <script>
-import { ref } from 'vue';
-
 export default {
   name: 'cInput',
   props: {
+    inputValue: {
+      type: String,
+    },
     placeholder: {
       type: String,
       default: 'Search Store',
     },
   },
+};
 
-  setup() {
-    const text = ref('');
 
-    return { text }
-  }
-}
+
 </script>
 
 <style scoped lang="scss">
